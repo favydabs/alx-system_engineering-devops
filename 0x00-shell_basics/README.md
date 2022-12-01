@@ -14,7 +14,5 @@ file /tmp/iamafile : prints the type of the file named iamafile. The file iamafi
 ln -s /bin/ls __ls__ :symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory.
 cp -u *.html .. : a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
 mv [[:upper:]]* /tmp/u :script that moves all files beginning with an uppercase letter to the directory /tmp/u.
-
-
-
-You can assume that the directory /tmp/u will exist when we will run your script
+You can assume that the directory /tmp/u will exist when we will run your script.
+rm *~ :  script that deletes all files in the current working directory that end with the character ~
