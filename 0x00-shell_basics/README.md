@@ -17,3 +17,4 @@ mv [[:upper:]]* /tmp/u :script that moves all files beginning with an uppercase 
 You can assume that the directory /tmp/u will exist when we will run your script.
 rm *~ :  script that deletes all files in the current working directory that end with the character ~.
 mkdir -p welcome/to/school :script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
+ ls -la -p -m -v : command that lists all the files and directories of the current directory, separated by commas (,).
