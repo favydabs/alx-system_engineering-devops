@@ -18,4 +18,4 @@ You can assume that the directory /tmp/u will exist when we will run your script
 rm *~ :  script that deletes all files in the current working directory that end with the character ~.
 mkdir -p welcome/to/school :script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
  ls -la -p -m -v : command that lists all the files and directories of the current directory, separated by commas (,).
-file -c -m school : a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0.
+file -C -s School : a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0.
