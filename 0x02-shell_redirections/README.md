@@ -24,5 +24,5 @@ cut -d ':' -f 1,6 /etc/passwd | sort : script that displays all users and their 
 find . -empty | rev | cut -d '/' -f 1 |rev :  command that finds all empty files and directories in the current directory and all sub-directories.
 find -type f -name "*.gif" | rev | cut -d "/" -f 1 | cut  -d '.' -f 2-
  | rev | LC_ALL-C sort -f : script that lists all the files with a .gif extension in the current directory and all its sub-directories.
-
+cut -c 1 | paste -s -d '' :  script that decodes acrostics that use the first letter of each line.
 
