@@ -30,3 +30,4 @@ server {
 	location ~ /airbnb-dynamic/number_odd_or_even/(\d+)$ {
 		proxy_pass http://0.0.0.0:5001/number_add_or_even/$1;
 	}
+}
