@@ -8,7 +8,7 @@ server {
         # Add index.php to the list if you are using PHP
         index 103-index.html index.htm index.nginx-debian.html;
 
-        server_name acidrain.tech www.acidrain.tech;
+        server_name dabit.tech www.dabit.tech;
 
         add_header X-Served-By $hostname;
 
